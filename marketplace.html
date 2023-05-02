@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports Equipment Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="Header"></div>             <!--HEADER FROM COMPONENTS.JS-->
+        <div id="status" class="marketplace">       <!--LIST OF PRODUCTS USING SCRIPT.JS-->
+        </div>
+        <div class="dbactions">
+            <div class="add_product">       <!--FORM TO ADD A PRODUCT-->
+                <p>Add Product</p>
+                <table >
+                    <tbody>
+                        <tr>
+                            <td><label for="name">Product name:</label></td>
+                            <td><input type="text" id="name" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="ID">Product ID:</label></td>
+                            <td><input type="text" id="ID" name="ID"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="img">Img URL:</label></td>
+                            <td><input type="text" id="img" name="img"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="price">Price:</label></td>
+                            <td><input type="text" id="Price" name="price"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button onclick="add()">Submit</button>
+            </div>
+            <div class="delprod">    <!--FORM TO DELETE A PRODUCT-->
+                <p>Delete Item</p>
+                <label for = "deleteItem">Item ID:</label>
+                <input type="text" id="deleteItem" name="deleteItem">
+                <button onclick="del()">Submit</button>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+<script src="components.js"></script>
+<script src="script.js"></script>
+<script src="cart.js"></script>
+</html>

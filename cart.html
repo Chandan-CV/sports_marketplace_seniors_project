@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sports Equipment Marketplace</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="Header" class="header"></div>
+            <div class="cart">
+                <div class="carttitle">
+                    <p>Items in Cart:</p>
+                    <button onclick="reset()">Reset</button>
+                </div>
+                <div id="cartlist" class="cartlist"> <!--ITEMS ADDED FROM CART.JS-->
+                </div>
+                <div id="total" class="total">
+                    <p>Total:</p>
+                </div>
+                <button onclick="checkout()">Checkout</button>
+            </div>
+            <div id="footer" class="footer"></div>
+        </div>
+    </body>
+    <script src="components.js"></script>
+    <script src="cart.js"></script>
+</html>
