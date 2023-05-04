@@ -1,7 +1,7 @@
 .header{
     width: 100vw;
     height: 60px;
-    background: #12345622;
+    background: #0000FF;
     display: flex;
     align-items: center;
     margin: 0;
@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("https://cdn.cdnparenting.com/articles/2018/03/72136312-H.jpg");
+    background-image: url("https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?w=2000");
     border-radius: 30px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     margin-top: 20px;
@@ -49,6 +49,7 @@
     font-weight: bold;
     margin-left: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
 }
 
 .header .links{
@@ -58,7 +59,7 @@
 }
 
 .header .links button:hover{
-    background: #12345688;
+    background: #00aaff88;
     cursor: pointer;
 }
 
@@ -69,7 +70,7 @@
     outline: none;
     padding: 8px;
     border-radius: 7px;
-    background: #12345655;
+    background: #7f7fff;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
 }
@@ -132,7 +133,7 @@ body{
 .footer{
     margin-top: 50px;
     width: 100vw;
-    background: #12345622;
+    background: #004a95;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,6 +148,7 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white
 }
 
 .footer .contactus{
@@ -174,7 +176,7 @@ body{
     padding: 20px;
 }
 
-.item .itemimg{
+.itemimg{
     width: 100px;
     height: 100px;
     border-radius: 5px;
